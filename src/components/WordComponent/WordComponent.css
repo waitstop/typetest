@@ -1,0 +1,12 @@
+.cursor{
+    position: relative;
+}
+.cursor:before{
+    content: '';
+    @apply bg-blue-500/50;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    @apply animate-pulse;
+}
